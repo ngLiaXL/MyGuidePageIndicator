@@ -80,6 +80,9 @@ public class MyIndicator extends LinearLayout implements ViewPager.OnPageChangeL
     }
 
     private void initIndicatorItem(int size) {
+
+        container.removeAllViews();
+
         Context context = getContext();
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(itemWidth, itemHeight);
         params.setMargins(0, itemMarginUp, (itemMarginRight + itemMarginLeft) / 4,
