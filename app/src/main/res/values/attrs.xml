@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="ind_item_height" format="dimension"/>
+    <attr name="ind_item_width" format="dimension"/>
+    <attr name="ind_item_margin_left" format="dimension"/>
+    <attr name="ind_item_margin_up" format="dimension"/>
+    <attr name="ind_item_margin_right" format="dimension"/>
+    <attr name="ind_item_margin_bottom" format="dimension"/>
+
+    <declare-styleable name="MyIndicator">
+        <attr name="ind_item_height"/>
+        <attr name="ind_item_width"/>
+        <attr name="ind_item_margin_left"/>
+        <attr name="ind_item_margin_up"/>
+        <attr name="ind_item_margin_right"/>
+        <attr name="ind_item_margin_bottom"/>
+    </declare-styleable>
+
+
+</resources>
